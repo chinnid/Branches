@@ -26,7 +26,7 @@ output:finally block is executed
 >>>>>>it will be executed whether exception is handled or not. */
 //-------------FinalizeMethod-------------------
 public class FinalFinallyFinalizeEx 
-//Finalize is used to perform clean up processing just before object is garbage collected.
+
 {
 public void finalize(){System.out.println("finalize called");}  
 public static void main(String[] args){  
