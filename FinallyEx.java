@@ -17,7 +17,7 @@ public class FinallyEx
 		  }  
 		  catch(NullPointerException e){System.out.println(e);}  
 		  finally{System.out.println("finally block is always executed");}  
-		  System.out.println("rest of the code...");  
+		    
 		  }	
 }
 /*output:5
